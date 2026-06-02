@@ -107,13 +107,13 @@ In practice, errors of base models are not fully independent.
 Let the average pairwise correlation between errors be:
 
 $$
-\operatorname{corr}(\varepsilon_i, \varepsilon_j) = \rho, \quad i \ne j.
+\mathrm{corr}(\varepsilon_i, \varepsilon_j) = \rho, \quad i \ne j.
 $$
 
 Since:
 
 $$
-\operatorname{corr}(\varepsilon_i, \varepsilon_j)
+\mathrm{corr}(\varepsilon_i, \varepsilon_j)
 =
 \frac{
 \mathbb{E}_x[\varepsilon_i(x)\varepsilon_j(x)]
